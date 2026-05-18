@@ -1,2 +1,66 @@
-/* CSS Document */
+/* global.css — shared across all tutorial pages */
 
+/* ── Reset & Base ── */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-deep:    #0f172a;
+    --bg-mid:     #1e293b;
+    --accent:     #38bdf8;
+    --text:       #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius:     16px;
+    --max-width:  900px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    background: linear-gradient(135deg, var(--bg-deep), var(--bg-mid));
+    color: var(--text);
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+    min-height: 100vh;
+    padding: 1.5rem 1rem 3rem;
+}
+
+/* ── Main content wrapper ── */
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background-color: var(--bg-deep);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem 2rem;
+}
+
+h1 {
+    color: var(--text);
+}
+
+h2 {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 3px;
+}
+
+.intro {
+    text-align: center;
+    margin: 10px;
+}
