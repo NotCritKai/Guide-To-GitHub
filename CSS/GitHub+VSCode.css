@@ -2,36 +2,6 @@ li {
     margin: 10px 5px 10px 20px;
 }
 
-.a {
-    list-style-type: none;
-    counter-reset: a-my-list;
-}
-
-.a li {
-    counter-increment: a-my-list;
-}
-
-.a li::before {
-    content: "1(" counter(a-my-list, lower-alpha) "): ";
-    margin-right: 5px;
-    font-weight: bold;
-}
-
-.b {
-    list-style-type: none;
-    counter-reset: b-my-list;
-}
-
-.b li {
-    counter-increment: b-my-list;
-}
-
-.b li::before {
-    content: "2(" counter(b-my-list, lower-alpha) "): ";
-    margin-right: 5px;
-    font-weight: bold;
-}
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -47,4 +17,9 @@ th, td {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.gif {
+    length: "auto"; 
+    width: 550px;
 }
