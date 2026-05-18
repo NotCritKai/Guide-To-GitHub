@@ -42,6 +42,15 @@ iframe:hover {
     box-shadow: 0 0 16px #38bdf855;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     .tutorial-grid {
         grid-template-columns: 1fr;

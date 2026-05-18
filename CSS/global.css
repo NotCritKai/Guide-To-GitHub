@@ -44,15 +44,6 @@ h2 {
     color: var(--text);
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 a[target="_blank"]::after {
   content: " ↗";
   font-size: 0.8em;
@@ -64,3 +55,16 @@ a[target="_blank"]::after {
     text-align: center;
     margin: 10px;
 }
+
+.back-nav {
+    max-width: var(--max-width);
+    text-align: left;
+}
+
+.back-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.back-nav a:hover { text-decoration: underline; }
