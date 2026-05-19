@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub + Unity</title>
+    <link rel="stylesheet" href="../../CSS/global.css">
+</head>
+
+<body>
+    <nav class="back-nav">
+        <a href="../../index.html">&larr; Back to Home</a>
+    </nav>
+
+    <header class="intro">
+        <h1>GitHub + Unity</h1>
+    </header>
+
+    <main>
+        <h2 class="section-heading">Project Setup</h2>
+        <hr>
+        <ol>
+            <li>Go to <a href="https://github.com">GitHub</a> and make an account</li>
+            <li>Create a <a href="../Basics/Repository.html">repository</a></li>
+            <li>Click "Code" and copy the HTTPS link</li>
+            <li>Add the Unity <code>.gitignore</code> when creating the repository</li>
+            <li>Download <a href="https://desktop.github.com/download/">GitHub Desktop</a> and sign in</li>
+            <li>Click "Clone Repository", or go to "File" &rarr; "Clone Repository"</li>
+            <li>Click "URL" and paste the HTTPS link</li>
+            <li>Choose a folder location</li>
+            <li>Click "Clone"</li>
+            <li>Navigate to the cloned folder and open the <code>.gitignore</code> file
+                (on macOS, press <code>CMD + Shift + .</code> to show hidden files)
+            </li>
+        </ol>
+
+        <br>
+
+        <img src="../../Assets/Images/unity-1.png" title="macOS gitignore" alt="macOS gitignore view" style="max-width: 100%; width: 750px;">
+        <img src="../../Assets/Images/unity-2.png" title="Windows 11 gitignore" alt="Windows 11 gitignore view" style="max-width: 100%; width: 750px;">
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <ol start="11">
+            <li>Remove the slashes from the first few lines of the <code>.gitignore</code></li>
+            <li>Save the file</li>
+        </ol>
+
+        <br>
+
+        <img src="../../Assets/Images/unity-3.png" title="Slashes to remove" alt="Lines with slashes to remove" style="max-width: 100%; width: 750px;">
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <ol start="13">
+            <li>Download <a href="https://unity.com/">Unity Hub</a></li>
+            <li>Click "Installs" &rarr; "Install Editor" and download the latest version</li>
+            <li>Create a new project</li>
+            <li>Set the project location to inside the cloned repository folder</li>
+        </ol>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="section-heading">Pushing / Pulling from GitHub</h2>
+        <hr>
+        <ol>
+            <li>After making changes, save them</li>
+            <li>Open GitHub Desktop</li>
+            <li>Click "Fetch Origin"</li>
+            <li>Add a commit message and click "Commit to main"</li>
+            <li>Click "Push Origin"</li>
+        </ol>
+    </main>
+
+    <script src="../../JS/global.js" defer></script>
+</body>
+</html>
