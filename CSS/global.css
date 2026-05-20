@@ -101,3 +101,11 @@ hr {
 .section-heading {
     padding-bottom: 10px;
 }
+
+.gif {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid var(--accent);
+}
