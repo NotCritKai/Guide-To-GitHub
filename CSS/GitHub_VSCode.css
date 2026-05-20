@@ -22,12 +22,3 @@ th {
 tr:nth-child(even) td {
     background-color: #ffffff08;
 }
-
-/* ── GIF Showcase ── */
-.gif-container {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin: 1.5rem 0;
-}
