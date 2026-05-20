@@ -43,12 +43,19 @@ iframe {
     border: 2px solid var(--accent);
     border-radius: 8px;
     display: block;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-iframe:hover {
+.tutorial-card {
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.tutorial-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 16px #38bdf855;
+}
+
+.tutorial-card iframe {
+    pointer-events: none;
 }
 
 /* ── Mobile ── */
